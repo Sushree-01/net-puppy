@@ -1,0 +1,68 @@
+.frame-child1 {
+    align-self: stretch;
+    height: 246px;
+    position: relative;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-firebrick);
+    display: none;
+  }
+  .create-node {
+    align-self: stretch;
+    flex: 1;
+  }
+  .co-educational-boarding-school,
+  .create-node,
+  .in-dehradun {
+    position: relative;
+    letter-spacing: 0.02em;
+    z-index: 1;
+  }
+  .in-dehradun {
+    align-self: stretch;
+    height: 40px;
+    font-size: var(--font-size-6xl);
+    display: inline-block;
+    font-weight: 900;
+    font-family: var(--font-mirador);
+    flex-shrink: 0;
+  }
+  .co-educational-boarding-school {
+    flex: 1;
+  }
+  .assign-node,
+  .constant-node1,
+  .rectangle-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .constant-node1 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-lgi);
+    font-size: var(--font-size-mini);
+    font-family: var(--font-tt-chocolates-trl);
+  }
+  .assign-node,
+  .rectangle-container {
+    flex-direction: column;
+  }
+  .rectangle-container {
+    align-self: stretch;
+    height: 246px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-firebrick);
+    box-shadow: 0 4px 26.6px rgba(0, 0, 0, 0.4);
+    padding: var(--padding-14xl) 0 var(--padding-23xl);
+    box-sizing: border-box;
+    gap: var(--gap-xs-5);
+    z-index: 1;
+  }
+  .assign-node {
+    height: 286px;
+    width: 248px;
+    text-align: center;
+    font-size: var(--font-size-41xl);
+    color: var(--color-white);
+    font-family: var(--font-miltonian);
+  }

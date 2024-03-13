@@ -1,0 +1,169 @@
+.image-19-icon {
+    width: 396px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+  }
+  .input-processor-icon {
+    height: 170.6px;
+    width: 236px;
+    position: relative;
+    z-index: 1;
+  }
+  .logic-gate {
+    height: 482px;
+    width: 396px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-27xl) 11.900000000000093px;
+    box-sizing: border-box;
+    background-image: url(/public/lady.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 396px;
+    max-width: 100%;
+  }
+  .at-tulas-we,
+  .using-the-latest {
+    align-self: stretch;
+    position: relative;
+    display: inline-block;
+  }
+  .at-tulas-we {
+    margin: 0;
+    height: 96px;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    font-style: italic;
+    font-weight: 900;
+    font-family: inherit;
+  }
+  .using-the-latest {
+    font-size: var(--font-size-6xl);
+    letter-spacing: 0.03em;
+    line-height: 28.8px;
+    font-weight: 300;
+    font-family: var(--font-tt-chocolates-trl);
+    color: var(--color-black);
+    min-height: 150px;
+  }
+  .loop-control {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px 0;
+  }
+  .frame-item {
+    height: 69px;
+    width: 424px;
+    position: relative;
+    border-radius: var(--br-15xl-5);
+    background-color: var(--color-white);
+    border: 2.5px solid var(--color-tan);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .learn-more {
+    align-self: stretch;
+    height: 27px;
+    position: relative;
+    letter-spacing: -0.03em;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .sequence-controller {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+    min-width: 173px;
+  }
+  .image-16-icon1 {
+    align-self: stretch;
+    width: 58px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 33px;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    flex: 1;
+    border-radius: var(--br-15xl-5);
+    background-color: var(--color-white);
+    border: 2.5px solid var(--color-tan);
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--padding-lg) var(--padding-9xl) var(--padding-lg)
+      var(--padding-20xl);
+    gap: var(--gap-9xl);
+  }
+  .rectangle-parent,
+  .tree-structure,
+  .variable-holder {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .variable-holder {
+    width: 440px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-9xl);
+    color: var(--color-dimgray);
+    font-family: var(--font-tt-chocolates-trl);
+  }
+  .tree-structure {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 56px 0;
+  }
+  .cousin-six-times-removed-nodes,
+  .data-aggregator,
+  .output-handler {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .output-handler {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-22xl) 0 0;
+    min-width: 510px;
+  }
+  .cousin-six-times-removed-nodes,
+  .data-aggregator {
+    flex-direction: row;
+  }
+  .data-aggregator {
+    width: 1375px;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: 0 175px;
+  }
+  .cousin-six-times-removed-nodes {
+    width: 1553px;
+    padding: 0 0 var(--padding-130xl) var(--padding-xl);
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-firebrick);
+    font-family: var(--font-mirador);
+  }
